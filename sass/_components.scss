@@ -1,0 +1,40 @@
+// header logo
+.logo {
+  height: 3.5em;
+}
+
+// header search
+.search {
+  &__input {
+  }
+
+  &__button {
+  }
+
+  &__icon {
+    height: 2em;
+    width: 2em;
+  }
+}
+// header navigaion
+.user-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__icon-box {
+  }
+  &__icon {
+    height: 3em;
+    width: 3em;
+  }
+  &__notification {
+  }
+  &__user {
+  }
+  &__user-photo {
+    height: 4em;
+    border-radius: 50%;
+  }
+  &__user-name {
+  }
+}

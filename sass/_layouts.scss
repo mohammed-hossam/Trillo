@@ -1,0 +1,32 @@
+.container {
+  @include border(red);
+  width: 85%;
+  height: 80vh;
+  background-color: var(--color-Grey-light2);
+  margin: auto;
+}
+
+.header {
+  @include border(green);
+  background-color: white;
+  border-bottom: 1px solid var(--color-Grey-light2);
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  height: 80%;
+}
+
+.sidebar {
+  background-color: var(--color-Grey-dark1);
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  background-color: white;
+  flex: 1;
+}
